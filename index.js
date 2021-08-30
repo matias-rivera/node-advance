@@ -1,3 +1,5 @@
+const dotenv = require("dotenv");
+dotenv.config({});
 const express = require("express");
 const mongoose = require("mongoose");
 const cookieSession = require("cookie-session");
