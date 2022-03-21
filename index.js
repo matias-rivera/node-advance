@@ -18,12 +18,11 @@ mongoose.Promise = global.Promise;
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useCreateIndex: true,
-}); */
-
+});
+ */
 const connectDB = async () => {
     try {
         const conn = await mongoose.connect(keys.mongoURI, {
-            useMongoClient: true,
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useCreateIndex: true,
